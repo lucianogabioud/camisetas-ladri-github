@@ -1,0 +1,34 @@
+.presentacion {
+    background: linear-gradient(195deg, #000000bd, #00000036), url(../multimedia/fondo\ titulo\ julian.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+
+    
+}
+
+
+.presentacion-2 {
+    background: linear-gradient(195deg, #000000bd, #00000036), url(../multimedia/messi-copa-mundial.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    margin-top: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    color: aliceblue;
+    
+}
+
+.grid-container {
+    transform: translateX(100px)
+    transition 10s;
+
+}
